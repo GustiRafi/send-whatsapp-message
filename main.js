@@ -11,7 +11,7 @@ const sendChat = async () => {
     const message = await client.messages.create({
       from: "whatsapp:+14155238886",
       to: "whatsapp:+6289504753863",
-      body: "Hello from Node.js",
+      body: "Hello from Node",
     });
 
     console.log('message sent successfully:', message.sid);
